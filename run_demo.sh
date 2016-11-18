@@ -1,3 +1,3 @@
 #!/bin/bash
-./build/bgs_demo dataset/video.avi
+./cmake-build-debug/bgs_demo dataset/video2.avi
 
