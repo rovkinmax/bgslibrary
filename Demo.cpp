@@ -108,7 +108,7 @@ int main(int argc, char **argv) {
     //bgs = new WeightedMovingVarianceBGS;
     //bgs = new MixtureOfGaussianV1BGS;
     //bgs = new MixtureOfGaussianV2BGS;
-    //bgs = new AdaptiveBackgroundLearning;//проверить
+    bgs = new AdaptiveBackgroundLearning;//проверить
     //bgs = new AdaptiveSelectiveBackgroundLearning;//проверить
     //bgs = new GMG;//проверить
 
@@ -120,7 +120,7 @@ int main(int argc, char **argv) {
     //bgs = new DPWrenGABGS;//достаточно не плохо
     //bgs = new DPPratiMediodBGS;//тоже не плохо
     //bgs = new DPEigenbackgroundBGS; //слишко чувствительно
-    bgs = new DPTextureBGS;//тяжеловесный
+    //bgs = new DPTextureBGS;//тяжеловесный
 
     /*** TB Package (thanks to Thierry Bouwmans, Fida EL BAF and Zhenjie Zhao) ***/
     //bgs = new T2FGMM_UM;
